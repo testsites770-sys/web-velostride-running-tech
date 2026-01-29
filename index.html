@@ -1,0 +1,210 @@
+```html
+<!DOCTYPE html>
+<html lang="he" dir="rtl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VeloStride | נעלי ריצה טכנולוגיות</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;400;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Assistant', sans-serif; }
+        .glow-blue { box-shadow: 0 0 20px rgba(37, 99, 235, 0.4); }
+        .bg-dark-mesh {
+            background-color: #020617;
+            background-image: radial-gradient(circle at 50% 50%, #1e293b 0%, #020617 100%);
+        }
+        .text-electric-blue { color: #00f2ff; }
+        .bg-electric-blue { background-color: #00f2ff; }
+    </style>
+</head>
+<body class="bg-dark-mesh text-white overflow-x-hidden">
+
+    <!-- Header -->
+    <nav class="fixed w-full z-50 bg-slate-950/80 backdrop-blur-md border-b border-blue-900/30">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-black tracking-tighter text-electric-blue">VELOSTRIDE</div>
+            <div class="hidden md:flex gap-8 font-medium">
+                <a href="#models" class="hover:text-electric-blue transition">דגמים</a>
+                <a href="#tech" class="hover:text-electric-blue transition">טכנולוגיה</a>
+                <a href="#testimonials" class="hover:text-electric-blue transition">ביקורות</a>
+            </div>
+            <a href="#signup" class="bg-blue-600 hover:bg-blue-500 px-6 py-2 rounded-full font-bold transition glow-blue">הצטרפות להשקה</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center relative z-10">
+            <div class="space-y-6">
+                <span class="inline-block px-4 py-1 rounded-full border border-blue-500 text-blue-400 text-sm font-bold uppercase tracking-widest">Future of Speed</span>
+                <h1 class="text-6xl md:text-8xl font-black leading-tight italic">
+                    לרוץ אל <br><span class="text-electric-blue">העתיד.</span>
+                </h1>
+                <p class="text-xl text-slate-400 max-w-lg">
+                    VeloStride משלבת בינה מלאכותית בעיצוב סוליות וחומרים ננו-טכנולוגיים כדי להעניק לך החזר אנרגיה של 98%.
+                </p>
+                <div class="flex gap-4">
+                    <button class="bg-electric-blue text-slate-950 px-8 py-4 rounded-lg font-black text-lg hover:scale-105 transition">קנה עכשיו</button>
+                    <button class="border border-slate-700 px-8 py-4 rounded-lg font-black text-lg hover:bg-slate-800 transition">צפה בטכנולוגיה</button>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="absolute -inset-10 bg-blue-600/20 blur-3xl rounded-full"></div>
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=800" alt="Running Shoe" class="relative z-10 drop-shadow-[0_20px_50px_rgba(0,242,255,0.3)] rotate-[-15deg] hover:rotate-0 transition duration-700">
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Advantages -->
+    <section id="tech" class="py-24 bg-slate-900/50">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-black text-center mb-16 underline decoration-blue-500 decoration-4">עליונות טכנולוגית</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-slate-800/50 p-8 rounded-2xl border border-slate-700 hover:border-blue-500 transition group">
+                    <div class="w-16 h-16 bg-blue-600/20 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-600 transition">
+                        <svg class="w-8 h-8 text-electric-blue group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">שיכוך Nano-Pulsar</h3>
+                    <p class="text-slate-400">סוליית אמצע המגיבה ללחץ כף הרגל בזמן אמת ומספקת רכות מקסימלית בנחיתה.</p>
+                </div>
+                <div class="bg-slate-800/50 p-8 rounded-2xl border border-slate-700 hover:border-blue-500 transition group">
+                    <div class="w-16 h-16 bg-blue-600/20 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-600 transition">
+                        <svg class="w-8 h-8 text-electric-blue group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">משקל נוצה (140 גרם)</h3>
+                    <p class="text-slate-400">שימוש בסיבי פחמן ורשת אוורירית הופכים את הנעל לחלק בלתי נפרד מהגוף שלך.</p>
+                </div>
+                <div class="bg-slate-800/50 p-8 rounded-2xl border border-slate-700 hover:border-blue-500 transition group">
+                    <div class="w-16 h-16 bg-blue-600/20 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-600 transition">
+                        <svg class="w-8 h-8 text-electric-blue group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">אחיזת CyberGrip</h3>
+                    <p class="text-slate-400">תבנית סוליה חיצונית שעוצבה באלגוריתם גנטי לאחיזה מושלמת בכל משטח רטוב או יבש.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Model Display -->
+    <section id="models" class="py-24">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex justify-between items-end mb-12">
+                <div>
+                    <h2 class="text-4xl font-black italic">קולקציית 2024</h2>
+                    <p class="text-slate-400">הדגמים החדשים ביותר כבר כאן</p>
+                </div>
+                <button class="text-electric-blue border-b border-electric-blue pb-1 hover:text-white transition">לכל הדגמים</button>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-slate-900 rounded-3xl overflow-hidden group">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        <div class="absolute top-4 right-4 bg-blue-600 px-3 py-1 rounded-full text-xs font-bold">חדש</div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold">VeloStride Alpha-X</h3>
+                        <p class="text-slate-400 text-sm mb-4">נעלי תחרות לשיאים אישיים</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-black text-electric-blue">₪899</span>
+                            <button class="bg-white text-slate-950 p-3 rounded-xl hover:bg-electric-blue transition">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-slate-900 rounded-3xl overflow-hidden group">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold">VeloStride Neon-Run</h3>
+                        <p class="text-slate-400 text-sm mb-4">עיצוב עוצר נשימה לריצות לילה</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-black text-electric-blue">₪749</span>
+                            <button class="bg-white text-slate-950 p-3 rounded-xl hover:bg-electric-blue transition">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-slate-900 rounded-3xl overflow-hidden group">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold">VeloStride Carbon-Pro</h3>
+                        <p class="text-slate-400 text-sm mb-4">לוחית קרבון מלאה לביצועי על</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-black text-electric-blue">₪999</span>
+                            <button class="bg-white text-slate-950 p-3 rounded-xl hover:bg-electric-blue transition">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-24 bg-blue-900/10">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-black text-center mb-16 italic">מהמקצוענים בשטח</h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="flex gap-6 items-start">
+                    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=200" class="w-20 h-20 rounded-full object-cover border-2 border-electric-blue">
+                    <div>
+                        <p class="text-lg italic text-slate-300">"השיכוך של VeloStride הוא משהו שלא הרגשתי מעולם. הצלחתי לקצץ 40 שניות מהשיא האישי שלי ב-10 ק״מ."</p>
+                        <p class="mt-4 font-bold text-electric-blue">— איתן דורון, רץ מרתון מקצועי</p>
+                    </div>
+                </div>
+                <div class="flex gap-6 items-start">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200" class="w-20 h-20 rounded-full object-cover border-2 border-electric-blue">
+                    <div>
+                        <p class="text-lg italic text-slate-300">"נעליים מדהימות. המשקל כל כך נמוך שלפעמים אני שוכחת שאני נועלת אותן. העיצוב מושך את העין של כולם בטיילת."</p>
+                        <p class="mt-4 font-bold text-electric-blue">— מאיה לוי, מאמנת ריצה</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Early Access Form -->
+    <section id="signup" class="py-24 relative overflow-hidden">
+        <div class="absolute inset-0 bg-blue-600 opacity-5"></div>
+        <div class="max-w-3xl mx-auto px-6 text-center relative z-10">
+            <h2 class="text-5xl font-black mb-6">רוצה להגיע לפני כולם?</h2>
+            <p class="text-xl text-slate-400 mb-10">הרשמו עכשיו לקבלת גישה מוקדמת להשקות דגמי הקרבון החדשים והנחות בלעדיות.</p>
+            <form id="waitlistForm" class="flex flex-col md:flex-row gap-4">
+                <input type="email" placeholder="האימייל שלך..." class="flex-1 bg-slate-900 border border-slate-700 rounded-xl px-6 py-4 focus:outline-none focus:border-electric-blue text-lg" required>
+                <button type="submit" class="bg-electric-blue text-slate-950 px-10 py-4 rounded-xl font-black text-lg hover:bg-white transition duration-300">הרשמה להשקה</button>
+            </form>
+            <p id="successMessage" class="mt-4 text-green-400 hidden italic">תודה! נעדכן אותך בקרוב.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="text-2xl font-black text-electric-blue">VELOSTRIDE</div>
+            <div class="flex gap-6 text-slate-500">
+                <a href="#" class="hover:text-white">אינסטגרם</a>
+                <a href="#" class="hover:text-white">פייסבוק</a>
+                <a href="#" class="hover:text-white">מדיניות פרטיות</a>
+            </div>
+            <div class="text-slate-500 text-sm">
+                © 2024 VeloStride Tech. כל הזכויות שמורות.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+```
