@@ -1,0 +1,53 @@
+```css
+/* Custom futuristic animations and styles */
+
+@keyframes pulse-blue {
+    0%, 100% {
+        opacity: 1;
+        filter: brightness(1);
+    }
+    50% {
+        opacity: 0.8;
+        filter: brightness(1.2);
+    }
+}
+
+.glow-text {
+    text-shadow: 0 0 10px rgba(0, 242, 255, 0.5);
+}
+
+/* Custom Scrollbar for dark mode */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #020617;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1e293b;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #2563eb;
+}
+
+/* Support for smooth appearance of images */
+img {
+    transition: filter 0.3s ease;
+}
+
+/* Smooth reveal on scroll helper classes (to be triggered via JS or kept simple) */
+.reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.8s ease-out;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+```
